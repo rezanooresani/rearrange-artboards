@@ -1,0 +1,36 @@
+{
+  "author" : "Reza Nooresani",
+  "commands" : [
+    {
+      "script" : "rearrange-selected.js",
+      "name" : "Rearrange Selected Artboards",
+      "handlers" : {
+        "run" : "onRun"
+      },
+      "shortcut" : "command shift <",
+      "identifier" : "rearrange-artboard.selected"
+    },
+    {
+      "script" : "rearrange-all.js",
+      "name" : "Rearrange All Artboards",
+      "handlers" : {
+        "run" : "onRun"
+      },
+      "shortcut" : "command shift >",
+      "identifier" : "rearrange-artboard.all"
+    }
+  ],
+  "menu" : {
+    "title" : "Rearrange Artboards",
+    "items" : [
+      "rearrange-artboard.selected",
+      "rearrange-artboard.all",
+    ]
+  },
+  "identifier" : "com.rearrange-artboard",
+  "version" : "1.0",
+  "description" : "Organize your artboards",
+  "authorEmail" : "reza.nooresani@vmlyr.com",
+  "name" : "Rearrange Artboards",
+  "icon" : "icon.png"
+}
