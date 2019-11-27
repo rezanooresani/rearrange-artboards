@@ -28,10 +28,10 @@
     ]
   },
   "identifier" : "com.rearrange-artboard",
-  "homepage": "https://github.com/rezanooresani/rearrange-artboards",
   "version" : "1.0",
   "description" : "Organize your artboards",
   "authorEmail" : "reza.nooresani@vmlyr.com",
+  "homepage": "https://github.com/rezanooresani/rearrange-artboards",
   "name" : "Rearrange Artboards",
   "icon" : "icon.png"
 }

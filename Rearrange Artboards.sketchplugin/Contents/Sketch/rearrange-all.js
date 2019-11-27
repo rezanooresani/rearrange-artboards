@@ -127,6 +127,18 @@ verSpacingTextField = NSTextField.alloc().initWithFrame(NSMakeRect(186, viewHeig
 verSpacingTextField.setStringValue("100");
 view.addSubview(verSpacingTextField);
 
+// Create dropdown
+  flipDropdown = NSPopUpButton.alloc().initWithFrame(NSMakeRect(0, viewHeight - 130, (viewWidth / 2) + 10, 22));
+
+  // Configure dropdown
+  [flipDropdown addItemWithTitle:"No flip"];
+  [flipDropdown addItemWithTitle:"Horizontal flip"];
+  [flipDropdown addItemWithTitle:"Vertical flip"];
+  [flipDropdown addItemWithTitle:"Horizontal and Vertical flip"];
+
+  // Add dropdown
+  view.addSubview(flipDropdown);
+
 
 // Show the dialog
 return [alert]
